@@ -24015,8 +24015,8 @@ var TableEditorSettingsTab = /** @class */ (function (_super) {
             cls: 'advanced-tables-donation',
         });
         var donateText = document.createElement('p');
-        donateText.appendText('If this plugin adds value for you and you would like to help support ' +
-            'continued development, please use the buttons below:');
+        donateText.appendText('如果此插件能为您带来帮助，并且您愿意 ' +
+            '帮助支持继续开发, 请使用下面的按钮:');
         div.appendChild(donateText);
         var parser = new DOMParser();
         div.appendChild(createDonateButton('https://paypal.me/tgrosinger', parser.parseFromString(paypal, 'text/xml').documentElement));
